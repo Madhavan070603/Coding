@@ -8,7 +8,7 @@ public class demo {
     System.out.println("All the prime numbers within 1 and "+ n +" are: ");
 
     for (x=1;x<=n;x++){
-      if(x==1 ||x==0){
+      if(x==1 ||(x==0)){
         continue;
       }
       z=1;
